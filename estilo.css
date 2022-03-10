@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+    font-family: Verdana;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+
+header{
+    background-image:linear-gradient( white, rgb(104, 104, 104));
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.637);
+    overflow: hidden;
+    width: 100%;
+
+}
+.menu ul, li{
+    list-style-type:none ;
+    display: inline-block;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover{
+    color:crimson;
+}
+.image_center{
+    text-align: center;
+    
+}
+.col{
+    margin: 10px;
+    float: left;
+    width: 30%;
+    text-align: justify;
+}
+img{
+    height: 120px;
+    width: 120px;
+}
+.divImg{
+    display: grid;
+    place-items: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container{
+        width: 100%;
+    }
+    .col{
+        float: none;
+        width: 95%;
+    }
+  }
+  
